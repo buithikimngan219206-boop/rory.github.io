@@ -1,0 +1,52 @@
+/* Toàn bộ trang */
+body {
+  background: linear-gradient(135deg, #a5d8ff, #fbc2eb);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Khung giữa */
+.container {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  padding: 40px;
+  width: 400px;
+}
+
+/* Tiêu đề */
+h1 {
+  color: #007aff;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+/* Đoạn mô tả */
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Nút tải */
+.btn {
+  display: inline-block;
+  background: #ff8af0;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff3fcf;
+  transform: scale(1.05);
+}
